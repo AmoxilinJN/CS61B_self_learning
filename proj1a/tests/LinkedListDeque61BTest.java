@@ -74,8 +74,8 @@ public class LinkedListDeque61BTest {
          result_r = p.getRecursive(1);
          assertThat(size).isEqualTo(2);
          assertThat(isEmpyt).isFalse();
-         assertThat(result).isEqualTo(1);
-         assertThat(result_r).isEqualTo(1);
+         assertThat(result).isEqualTo(2);
+         assertThat(result_r).isEqualTo(2);
          assertThat(p.get(12)).isEqualTo(null);
          assertThat(p.getRecursive(12)).isEqualTo(null);
          assertThat(p.removeLast()).isEqualTo(2);
